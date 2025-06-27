@@ -14,7 +14,7 @@ st.title("🫀 Heart Disease Risk Predictor")
 st.markdown("Enter patient health details to estimate the risk of heart disease.")
 
 # Form inputs
-age = st.slider("Age", 29, 77, 50)
+age = st.slider("Age", 18, 85, 50)
 sex = st.selectbox("Sex", ["Female", "Male"])
 cp = st.selectbox("Chest Pain Type", ["Typical Angina", "Atypical Angina", "Non-Anginal Pain", "Asymptomatic"])
 trestbps = st.slider("Resting BP (mm Hg)", 90, 200, 120)

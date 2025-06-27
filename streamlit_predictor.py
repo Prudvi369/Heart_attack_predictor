@@ -3,7 +3,9 @@ import pickle
 import pandas as pd
 
 # Load the model
-model_path = "C:/Users/Prudvi raju/Downloads/heart_attack_predictor/heart_disease_model.pkl"
+#model_path = "C:/Users/Prudvi raju/Downloads/heart_attack_predictor/heart_disease_model.pkl"
+model_path = "heart_disease_model.pkl"
+
 with open(model_path, "rb") as f:
     model = pickle.load(f)
 
